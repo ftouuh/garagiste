@@ -15,6 +15,7 @@ class CreateUsersTable extends Migration
             $table->boolean('isUser');
             $table->boolean('isMechanicien');
             $table->boolean('isAdmin');
+            $table->timestamps();
         });
     }
 
